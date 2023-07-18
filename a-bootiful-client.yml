@@ -1,5 +1,8 @@
-spring.datasource.url=jdbc:postgresql://localhost:5432/employees
-spring.datasource.username=postgres
-spring.datasource.password=akber719
-spring.flyway.enabled: true
-spring.flyway.locations: classpath:db/migration
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/employees
+    username: postgres
+    password: akber719
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
